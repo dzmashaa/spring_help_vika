@@ -1,0 +1,7 @@
+<section class="footer">
+    <ul class="authors-links">
+        <li th:each="link : ${links}">
+            <a class="author-link standard-authors-link" th:href="${info.currentPage == link ? '/' : '/authors/' + link}" th:text="${info.currentPage == link ? 'Home Page' : link}"></a>
+        </li>
+    </ul>
+</section>

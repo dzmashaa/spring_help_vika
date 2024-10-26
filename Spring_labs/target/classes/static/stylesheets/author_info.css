@@ -1,0 +1,30 @@
+.title-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.author-img {
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+
+.author-name {
+    font-size: 32px;
+    margin-bottom: 4px;
+}
+
+.standard-description,
+.standard-author-name {
+    color: gray;
+}
+
+.standard-description:hover {
+    color: white;
+}
+
+.description {
+    font-size: 24px;
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+}
+
