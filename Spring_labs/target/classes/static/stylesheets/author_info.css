@@ -3,9 +3,10 @@
     color: inherit;
 }
 
-.author-img {
-    max-height: 200px;
-    margin-bottom: 10px;
+.description {
+    font-size: 24px;
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
 }
 
 .author-name {
@@ -22,9 +23,7 @@
     color: white;
 }
 
-.description {
-    font-size: 24px;
-    transition: all 0.3s ease;
-    margin-bottom: 30px;
+.author-img {
+    max-height: 200px;
+    margin-bottom: 10px;
 }
-

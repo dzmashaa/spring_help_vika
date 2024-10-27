@@ -34,6 +34,16 @@ body {
     width: 100%;
 }
 
+.github-style {
+    fill:#151513;
+    color:#fff;
+    position: absolute;
+    top: 0;
+    border: 0;
+    left: 0;
+    transform: scale(-1, 1);
+}
+
 /* Animation */
 #title {
     border-right: solid 3px rgba(0, 0, 0, 0.75);
@@ -217,6 +227,25 @@ form button {
     padding-top: 3%;
 }
 
+.authors-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-top: auto;
+    padding: 10px;
+}
+
+.author-link {
+    font-size: 24px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: gray;
+}
+
+.author-link:hover {
+    color: white;
+}
+
 .container {
     text-align: center;
     max-width: 1200px;
@@ -236,3 +265,4 @@ input::-webkit-inner-spin-button {
 .link:hover {
     color: rgb(0, 0, 0);
 }
+

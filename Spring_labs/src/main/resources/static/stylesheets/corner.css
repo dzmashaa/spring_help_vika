@@ -47,3 +47,7 @@
     left: 0;
     transform: scale(-1, 1);
 }
+
+.octo-arm {
+    transform-origin: 130px 106px;
+}
